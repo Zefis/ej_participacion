@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bienvenido a la página de World of Warcraft">
+    <title>World of Warcraft - Bienvenido</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Bienvenido,{{ username }} héroe de Azeroth</h1>
+        <p>Te has unido a las filas de los aventureros en World of Warcraft.</p>
+    </header>
+
+    <!-- Sección de selección de personajes -->
+    <section class="character-selection">
+        <div class="character-card">
+            <img src="static/R.jfif" alt="Orco Guerrero">
+            <h2>Orco Guerrero</h2>
+            <p>Forjado en batalla, el Orco Guerrero se destaca por su fuerza brutal y resistencia en el campo de batalla.</p>
+            <a href="#" class="btn">Seleccionar</a>
+        </div>
+        <div class="character-card">
+            <img src="static/a70b56572e1632faaf95697ffb7266f9.jpg" alt="Elfo Nocturno Druida">
+            <h2>Elfo Nocturno Druida</h2>
+            <p>Maestro de las formas y la naturaleza, el Druida puede transformarse en bestias poderosas para defender Azeroth.</p>
+            <a href="#" class="btn">Seleccionar</a>
+        </div>
+        <div class="character-card">
+            <img src="static/human.jfif" alt="Humano Mago">
+            <h2>Humano Mago</h2>
+            <p>El Mago humano domina los elementos arcanos, desatando hechizos devastadores sobre sus enemigos.</p>
+            <a href="#" class="btn">Seleccionar</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 World of Warcraft ☻. Todos los derechos reservados.</p>
+        <p>Este es un sitio de fans no oficial y no está afiliado a Blizzard Entertainment.</p>
+        <a href="{{ url_for('logout') }}" class="btn">Cerrar sesión</a>
+    </footer>
+
+</body>
+</html>

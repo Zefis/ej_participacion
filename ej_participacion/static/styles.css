@@ -1,0 +1,120 @@
+body {
+    background-image: url('wow_background.jpg');
+    background-size: cover;
+    color: #fff;
+    font-family: 'Verdana', sans-serif;
+}
+header {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    text-align: center;
+}
+h1 {
+    font-size: 48px;
+    color: #f0b429;
+    text-shadow: 2px 2px 4px #000;
+}
+p {
+    font-size: 18px;
+    text-shadow: 1px 1px 2px #000;
+}
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 20px;
+    background-color: #f0b429;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    transition: background-color 0.3s ease;
+}
+.btn:hover {
+    background-color: #c09221;
+}
+.character-selection {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.character-card {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+.character-card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    padding: 10px;
+    margin-top: 40px;
+    color: #ccc;
+}
+a {
+    font-size: 18px;
+    text-shadow: 1px 1px 2px #000;
+    color: #ccc;
+}
+body {
+    background-image: url('wow_login_background.jpg');
+    background-size: cover;
+    color: #fff;
+    font-family: 'Verdana', sans-serif;
+}
+header {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    text-align: center;
+}
+.login-container {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 40px;
+    margin: 100px auto;
+    width: 30%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+.login-container h2 {
+    text-align: center;
+    font-size: 28px;
+    color: #f0b429;
+    text-shadow: 2px 2px 4px #000;
+}
+.login-container label {
+    display: block;
+    font-size: 16px;
+    margin-top: 15px;
+}
+.login-container input[type="text"], .login-container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: none;
+}
+.login-container button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #f0b429;
+    color: #000;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    transition: background-color 0.3s ease;
+}
+.login-container button:hover {
+    background-color: #c09221;
+}
+
+/* footer p {
+    margin: 5px;
+} */
